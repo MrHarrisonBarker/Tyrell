@@ -8,7 +8,6 @@ using Microsoft.AspNetCore.Mvc;
 namespace Tyrell.Controllers
 {
     [Route("api/[controller]")]
-    [EnableCors("CorsPol")]
     [ApiController]
     public class SampleDataController : Controller
     {

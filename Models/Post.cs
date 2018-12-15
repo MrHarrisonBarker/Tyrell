@@ -1,0 +1,12 @@
+using System;
+
+namespace Tyrell.Models
+{
+    public class Post
+    {    
+        public long Id { get; set; }
+        public string Title { get; set;  }
+        public string Body { get; set;  }
+        public bool isVisible { get; set; }
+    }
+}

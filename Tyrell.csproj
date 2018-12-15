@@ -13,36 +13,67 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.App"/>
-        <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="2.1.1"/>
+        <PackageReference Include="Microsoft.AspNetCore.App" />
+        <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="2.1.1" />
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="2.2.0-preview1" />
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.Design" Version="2.0.0-preview1" />
+        <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.1.4" />
+        <PackageReference Include="Pomelo.EntityFrameworkCore.MySql.Design" Version="1.1.2" />
     </ItemGroup>
 
     <ItemGroup>
         <!-- Don't publish the SPA source files, but do show them in the project files list -->
-        <Content Remove="$(SpaRoot)**"/>
-        <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**"/>
+        <Content Remove="$(SpaRoot)**" />
+        <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Tyrell.Auth\Views\Account\LoggedOut.cshtml" />
+      <_ContentIncludedByDefault Remove="Tyrell.Auth\Views\Account\Login.cshtml" />
+      <_ContentIncludedByDefault Remove="Tyrell.Auth\Views\Account\Logout.cshtml" />
+      <_ContentIncludedByDefault Remove="Tyrell.Auth\Views\Consent\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Tyrell.Auth\Views\Device\Success.cshtml" />
+      <_ContentIncludedByDefault Remove="Tyrell.Auth\Views\Device\UserCodeCapture.cshtml" />
+      <_ContentIncludedByDefault Remove="Tyrell.Auth\Views\Device\UserCodeConfirmation.cshtml" />
+      <_ContentIncludedByDefault Remove="Tyrell.Auth\Views\Diagnostics\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Tyrell.Auth\Views\Grants\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Tyrell.Auth\Views\Home\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Tyrell.Auth\Views\Shared\Error.cshtml" />
+      <_ContentIncludedByDefault Remove="Tyrell.Auth\Views\Shared\Redirect.cshtml" />
+      <_ContentIncludedByDefault Remove="Tyrell.Auth\Views\Shared\_Layout.cshtml" />
+      <_ContentIncludedByDefault Remove="Tyrell.Auth\Views\Shared\_ScopeListItem.cshtml" />
+      <_ContentIncludedByDefault Remove="Tyrell.Auth\Views\Shared\_ValidationSummary.cshtml" />
+      <_ContentIncludedByDefault Remove="Tyrell.Auth\Views\_ViewImports.cshtml" />
+      <_ContentIncludedByDefault Remove="Tyrell.Auth\Views\_ViewStart.cshtml" />
+      <_ContentIncludedByDefault Remove="Tyrell.Auth\appsettings.json" />
+      <_ContentIncludedByDefault Remove="Tyrell.Auth\bin\Debug\netcoreapp2.1\Tyrell.Auth.deps.json" />
+      <_ContentIncludedByDefault Remove="Tyrell.Auth\bin\Debug\netcoreapp2.1\Tyrell.Auth.runtimeconfig.dev.json" />
+      <_ContentIncludedByDefault Remove="Tyrell.Auth\bin\Debug\netcoreapp2.1\Tyrell.Auth.runtimeconfig.json" />
+      <_ContentIncludedByDefault Remove="Tyrell.Auth\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="Tyrell.Auth\obj\project.packagespec.json" />
+      <_ContentIncludedByDefault Remove="Tyrell.Auth\Properties\launchSettings.json" />
     </ItemGroup>
 
     <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
         <!-- Ensure Node.js is installed -->
         <Exec Command="node --version" ContinueOnError="true">
-            <Output TaskParameter="ExitCode" PropertyName="ErrorCode"/>
+            <Output TaskParameter="ExitCode" PropertyName="ErrorCode" />
         </Exec>
-        <Error Condition="'$(ErrorCode)' != '0'" Text="Node.js is required to build and run this project. To continue, please install Node.js from https://nodejs.org/, and then restart your command prompt or IDE."/>
-        <Message Importance="high" Text="Restoring dependencies using 'npm'. This may take several minutes..."/>
-        <Exec WorkingDirectory="$(SpaRoot)" Command="npm install"/>
+        <Error Condition="'$(ErrorCode)' != '0'" Text="Node.js is required to build and run this project. To continue, please install Node.js from https://nodejs.org/, and then restart your command prompt or IDE." />
+        <Message Importance="high" Text="Restoring dependencies using 'npm'. This may take several minutes..." />
+        <Exec WorkingDirectory="$(SpaRoot)" Command="npm install" />
     </Target>
 
     <Target Name="PublishRunWebpack" AfterTargets="ComputeFilesToPublish">
         <!-- As part of publishing, ensure the JS resources are freshly built in production mode -->
-        <Exec WorkingDirectory="$(SpaRoot)" Command="npm install"/>
-        <Exec WorkingDirectory="$(SpaRoot)" Command="npm run build -- --prod"/>
-        <Exec WorkingDirectory="$(SpaRoot)" Command="npm run build:ssr -- --prod" Condition=" '$(BuildServerSideRenderer)' == 'true' "/>
+        <Exec WorkingDirectory="$(SpaRoot)" Command="npm install" />
+        <Exec WorkingDirectory="$(SpaRoot)" Command="npm run build -- --prod" />
+        <Exec WorkingDirectory="$(SpaRoot)" Command="npm run build:ssr -- --prod" Condition=" '$(BuildServerSideRenderer)' == 'true' " />
 
         <!-- Include the newly-built files in the publish output -->
         <ItemGroup>
-            <DistFiles Include="$(SpaRoot)dist\**; $(SpaRoot)dist-server\**"/>
-            <DistFiles Include="$(SpaRoot)node_modules\**" Condition="'$(BuildServerSideRenderer)' == 'true'"/>
+            <DistFiles Include="$(SpaRoot)dist\**; $(SpaRoot)dist-server\**" />
+            <DistFiles Include="$(SpaRoot)node_modules\**" Condition="'$(BuildServerSideRenderer)' == 'true'" />
             <ResolvedFileToPublish Include="@(DistFiles->'%(FullPath)')" Exclude="@(ResolvedFileToPublish)">
                 <RelativePath>%(DistFiles.Identity)</RelativePath>
                 <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>

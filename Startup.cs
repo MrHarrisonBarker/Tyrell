@@ -3,8 +3,10 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Tyrell.Models;
 
 namespace Tyrell
 {
@@ -20,19 +22,25 @@ namespace Tyrell
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-
+            
             services.AddCors(options =>
             {
                 options.AddPolicy("CorsPol", builder =>
-                    builder.AllowAnyOrigin()    
+                    builder.AllowAnyOrigin()
                         .AllowAnyMethod()
                         .AllowAnyHeader()
                         .AllowCredentials());
             });
+//            services.AddCors();
             
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
             // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration => { configuration.RootPath = "ClientApp/dist"; });
+
+            services.AddDbContext<PostContext>(options =>
+                options.UseMySql(Configuration.GetConnectionString("DefaultConnection"))
+            );
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -48,11 +56,11 @@ namespace Tyrell
                 app.UseHsts();
             }
 
-            app.UseCors("CorsPol");
+//            app.UseHttpsRedirection();
+//            app.UseStaticFiles();
+//            app.UseSpaStaticFiles();
             
-            app.UseHttpsRedirection();
-            app.UseStaticFiles();
-            app.UseSpaStaticFiles();
+            app.UseCors("CorsPol");
 
             app.UseMvc(routes =>
             {
@@ -61,19 +69,19 @@ namespace Tyrell
                     template: "{controller}/{action=Index}/{id?}");
             });
 
-            app.UseSpa(spa =>
-            {
-                // To learn more about options for serving an Angular SPA from ASP.NET Core,
-                // see https://go.microsoft.com/fwlink/?linkid=864501
-
-                spa.Options.SourcePath = "ClientApp";
-
-                if (env.IsDevelopment())
-                {
-//                    spa.UseAngularCliServer(npmScript: "start");
-                    spa.UseProxyToSpaDevelopmentServer("http://localhost:4200");
-                }
-            });
+//            app.UseSpa(spa =>
+//            {
+//                // To learn more about options for serving an Angular SPA from ASP.NET Core,
+//                // see https://go.microsoft.com/fwlink/?linkid=864501
+//
+//                spa.Options.SourcePath = "ClientApp";
+//
+//                if (env.IsDevelopment())
+//                {
+////                    spa.UseAngularCliServer(npmScript: "start");
+//                    spa.UseProxyToSpaDevelopmentServer("http://localhost:4200");
+//                }
+//            });
         }
     }
 }

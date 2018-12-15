@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2519d26d-e411-40fd-b402-6207100460e2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Controllers/PostController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Post.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/PostContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tyrell/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tyrell/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tyrell/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tyrell/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/fetch-data/fetch-data.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/fetch-data/fetch-data.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/fetch-data/fetch-data.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/fetch-data/fetch-data.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/home/home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/environments/environment.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/SampleDataController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/SampleDataController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tyrell.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tyrell.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,81 +28,111 @@
     <session id="1469511083">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="Angular2LanguageService" value="1" />
-          <entry key="TypeScriptServerServiceImpl" value="1" />
+          <entry key="Angular2LanguageService" value="4" />
+          <entry key="TypeScriptServerServiceImpl" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="14" />
-          <entry key="ts" value="12" />
+          <entry key="cs" value="1671" />
+          <entry key="html" value="50" />
+          <entry key="json" value="156" />
+          <entry key="ts" value="1356" />
           <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="14" />
+          <entry key="C#" value="1671" />
+          <entry key="HTML" value="50" />
+          <entry key="JSON" value="156" />
           <entry key="PLAIN_TEXT" value="13" />
-          <entry key="TypeScript" value="12" />
+          <entry key="TypeScript" value="1356" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="3" />
-          <entry key="ts" value="4" />
+          <entry key="cs" value="15" />
+          <entry key="html" value="8" />
+          <entry key="http" value="1" />
+          <entry key="json" value="3" />
+          <entry key="ts" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="3" />
-          <entry key="TypeScript" value="4" />
+          <entry key="C#" value="15" />
+          <entry key="HTML" value="8" />
+          <entry key="JSON" value="3" />
+          <entry key="Scratch" value="1" />
+          <entry key="TypeScript" value="18" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Program.cs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="6" selection-start-column="6" selection-end-column="6" />
+            <state relative-caret-position="357">
+              <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="44" />
               <folding>
-                <marker date="1543929936634" expanded="true" signature="6:255" ph="..." />
-                <marker date="1543929936634" expanded="true" signature="273:600" ph="{...}" />
-                <marker date="1543929936634" expanded="true" signature="300:598" ph="{...}" />
-                <marker date="1543929936634" expanded="true" signature="353:427" ph="{...}" />
+                <marker date="1544819952566" expanded="false" signature="6:342" ph="..." />
+                <marker date="1544819952566" expanded="true" signature="360:2910" ph="{...}" />
+                <marker date="1544819952566" expanded="true" signature="387:2908" ph="{...}" />
+                <marker date="1544819952566" expanded="true" signature="446:509" ph="{...}" />
+                <marker date="1544819952566" expanded="true" signature="732:1554" ph="{...}" />
+                <marker date="1544819952566" expanded="true" signature="768:1056" ph="..." />
+                <marker date="1544819952566" expanded="true" signature="795:1054" ph="{...}" />
+                <marker date="1544819952566" expanded="true" signature="1742:2902" ph="{...}" />
+                <marker date="1544819952566" expanded="true" signature="1789:1866" ph="{...}" />
+                <marker date="1544819952566" expanded="true" signature="1883:1993" ph="{...}" />
+                <marker date="1544819952566" expanded="true" signature="1995:2110" ph="/* app.UseHttpsRedirection(); ... */" />
+                <marker date="1544819952566" expanded="true" signature="2193:2359" ph="{...}" />
+                <marker date="1544819952566" expanded="true" signature="2363:2892" ph="/* app.UseSpa(spa =&gt; ... */" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Startup.cs">
+        <entry file="file://$PROJECT_DIR$/Controllers/PostController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+            <state relative-caret-position="-35">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding>
-                <marker date="1543930964025" expanded="false" signature="6:284" ph="..." />
-                <marker date="1543930964025" expanded="true" signature="302:2614" ph="{...}" />
-                <marker date="1543930964025" expanded="true" signature="329:2612" ph="{...}" />
-                <marker date="1543930964025" expanded="true" signature="388:451" ph="{...}" />
-                <marker date="1543930964025" expanded="true" signature="674:1290" ph="{...}" />
-                <marker date="1543930964025" expanded="true" signature="814:1077" ph="{...}" />
-                <marker date="1543930964025" expanded="true" signature="1478:2606" ph="{...}" />
-                <marker date="1543930964025" expanded="true" signature="1525:1602" ph="{...}" />
-                <marker date="1543930964025" expanded="true" signature="1619:1729" ph="{...}" />
-                <marker date="1543930964025" expanded="true" signature="1923:2089" ph="{...}" />
-                <marker date="1543930964025" expanded="true" signature="2122:2594" ph="{...}" />
-                <marker date="1543930964025" expanded="true" signature="2153:2299" ph="/* To learn more about options for serving an Angular SPA from ASP.NET Core, ... */" />
-                <marker date="1543930964025" expanded="true" signature="2396:2580" ph="{...}" />
+                <marker date="1544818706297" expanded="false" signature="6:205" ph="..." />
+                <marker date="1544818706297" expanded="true" signature="235:3065" ph="{...}" />
+                <marker date="1544818706297" expanded="true" signature="334:3063" ph="{...}" />
+                <marker date="1544818706297" expanded="true" signature="439:491" ph="{...}" />
+                <marker date="1544818706297" expanded="true" signature="587:650" ph="{...}" />
+                <marker date="1544818706297" expanded="true" signature="781:1120" ph="{...}" />
+                <marker date="1544818706297" expanded="true" signature="828:903" ph="{...}" />
+                <marker date="1544818706297" expanded="true" signature="1017:1080" ph="{...}" />
+                <marker date="1544818706297" expanded="true" signature="1274:1957" ph="{...}" />
+                <marker date="1544818706297" expanded="true" signature="1321:1396" ph="{...}" />
+                <marker date="1544818706297" expanded="true" signature="1428:1493" ph="{...}" />
+                <marker date="1544818706297" expanded="true" signature="1574:1653" ph="{...}" />
+                <marker date="1544818706297" expanded="true" signature="1691:1915" ph="{...}" />
+                <marker date="1544818706297" expanded="true" signature="1742:1817" ph="{...}" />
+                <marker date="1544818706297" expanded="true" signature="1838:1901" ph="{...}" />
+                <marker date="1544818706297" expanded="true" signature="2083:2374" ph="{...}" />
+                <marker date="1544818706297" expanded="true" signature="2130:2205" ph="{...}" />
+                <marker date="1544818706297" expanded="true" signature="2515:2941" ph="{...}" />
+                <marker date="1544818706297" expanded="true" signature="2562:2637" ph="{...}" />
+                <marker date="1544818706297" expanded="true" signature="2750:2813" ph="{...}" />
+                <marker date="1544818706297" expanded="true" signature="2982:3057" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -102,46 +141,48 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controllers/SampleDataController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-312">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            <state relative-caret-position="124">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="27" />
               <folding>
-                <marker date="1543931009493" expanded="true" signature="6:161" ph="..." />
-                <marker date="1543931009493" expanded="true" signature="191:1309" ph="{...}" />
-                <marker date="1543931009493" expanded="true" signature="324:1307" ph="{...}" />
-                <marker date="1543931009493" expanded="true" signature="389:511" ph="{...}" />
-                <marker date="1543931009493" expanded="true" signature="606:959" ph="{...}" />
-                <marker date="1543931009493" expanded="true" signature="743:947" ph="{...}" />
-                <marker date="1543931009493" expanded="true" signature="997:1301" ph="{...}" />
-                <marker date="1543931009493" expanded="true" signature="1196:1291" ph="{...}" />
+                <marker date="1544436987941" expanded="false" signature="6:161" ph="..." />
+                <marker date="1544436987941" expanded="true" signature="191:1281" ph="{...}" />
+                <marker date="1544436987941" expanded="true" signature="296:1279" ph="{...}" />
+                <marker date="1544436987941" expanded="true" signature="361:483" ph="{...}" />
+                <marker date="1544436987941" expanded="true" signature="578:931" ph="{...}" />
+                <marker date="1544436987941" expanded="true" signature="715:919" ph="{...}" />
+                <marker date="1544436987941" expanded="true" signature="969:1273" ph="{...}" />
+                <marker date="1544436987941" expanded="true" signature="1168:1263" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ClientApp/src/app/app.component.ts">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ClientApp/src/app/app.module.ts">
+        <entry file="file://$PROJECT_DIR$/ClientApp/src/app/home/home.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClientApp/src/environments/environment.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
               <folding>
-                <element signature="e#0#58#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ClientApp/src/main.ts">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClientApp/src/app/home/home.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#47#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="299">
+              <caret line="13" column="262" selection-start-line="13" selection-start-column="262" selection-end-line="13" selection-end-column="262" />
             </state>
           </provider>
         </entry>
@@ -149,9 +190,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ClientApp/src/app/fetch-data/fetch-data.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="163">
+              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
               <folding>
-                <element signature="e#0#50#0" expanded="true" />
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClientApp/src/app/fetch-data/fetch-data.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClientApp/src/app/app.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClientApp/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="508">
+              <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -163,16 +235,40 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Models/PostContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/PostController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/Post.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/SampleDataController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="dummy://restClient/response7.json" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Migrations/20181207234635_initial.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Startup.cs" />
-        <option value="$PROJECT_DIR$/Controllers/SampleDataController.cs" />
         <option value="$PROJECT_DIR$/ClientApp/src/main.ts" />
+        <option value="$PROJECT_DIR$/dbSettings.cs" />
+        <option value="$PROJECT_DIR$/Models/Post.cs" />
+        <option value="$PROJECT_DIR$/Models/PostContext.cs" />
+        <option value="$PROJECT_DIR$/appsettings.json" />
+        <option value="$PROJECT_DIR$/ClientApp/src/app/post.ts" />
+        <option value="$PROJECT_DIR$/ClientApp/src/app/home/home.component.html" />
+        <option value="$PROJECT_DIR$/ClientApp/src/app/home/home.component.ts" />
+        <option value="$PROJECT_DIR$/ClientApp/src/app/app.module.ts" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http" />
+        <option value="$PROJECT_DIR$/ClientApp/src/app/post.service.ts" />
+        <option value="$PROJECT_DIR$/tmp-app/tmp/src/app/fetch/fetch.component.ts" />
+        <option value="$PROJECT_DIR$/tmp-app/tmp/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/tmp-app/tmp/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/tmp-app/tmp/src/app/fetch/fetch.component.html" />
+        <option value="$PROJECT_DIR$/tmp-app/tmp/src/app/app-routing.module.ts" />
+        <option value="$PROJECT_DIR$/Controllers/SampleDataController.cs" />
+        <option value="$PROJECT_DIR$/ClientApp/src/environments/environment.ts" />
+        <option value="$PROJECT_DIR$/Controllers/PostController.cs" />
+        <option value="$PROJECT_DIR$/ClientApp/src/app/fetch-data/fetch-data.component.ts" />
+        <option value="$PROJECT_DIR$/ClientApp/src/app/fetch-data/fetch-data.component.html" />
+        <option value="$PROJECT_DIR$/Startup.cs" />
       </list>
     </option>
   </component>
@@ -201,6 +297,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -247,6 +344,15 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="Tyrell" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Tyrell" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="app" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="home" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Tyrell" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Tyrell" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
@@ -254,16 +360,99 @@
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Bin/dotNetAngular/WebApplication" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TheRiver" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/ClientApp/node_modules/typescript/lib" />
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:5000" />
+          <option name="urlPath" value="/api/post" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:5000/api/post" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:5000" />
+          <option name="urlPath" value="/api/post" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:5000" />
+          <option name="urlPath" value="/api/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -308,7 +497,10 @@
       <option name="presentableId" value="Default" />
       <updated>1543917773190</updated>
       <workItem from="1543917777562" duration="2913000" />
-      <workItem from="1543929964798" duration="571000" />
+      <workItem from="1543929964798" duration="3954000" />
+      <workItem from="1544130922260" duration="14826000" />
+      <workItem from="1544436521225" duration="2481000" />
+      <workItem from="1544557071648" duration="4360000" />
     </task>
     <task id="LOCAL-00001" summary="inital">
       <created>1543917972555</created>
@@ -328,7 +520,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3484000" />
+    <option name="totallyTimeSpent" value="28534000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -340,26 +532,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="840" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="833" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.328877" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.328877" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32931727" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="bottom" id="Unit Tests" order="12" />
-      <window_info anchor="bottom" id="REST Client" order="13" />
+      <window_info anchor="bottom" id="REST Client" order="13" weight="0.328877" />
       <window_info anchor="bottom" id="Terminal" order="14" weight="0.32931727" />
       <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="16" visible="true" weight="0.32931727" />
@@ -404,85 +595,219 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Program.cs">
+    <entry file="file://$PROJECT_DIR$/ClientApp/src/main.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        <state relative-caret-position="184">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
           <folding>
-            <marker date="1543929936634" expanded="true" signature="6:255" ph="..." />
-            <marker date="1543929936634" expanded="true" signature="273:600" ph="{...}" />
-            <marker date="1543929936634" expanded="true" signature="300:598" ph="{...}" />
-            <marker date="1543929936634" expanded="true" signature="353:427" ph="{...}" />
+            <element signature="e#0#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Startup.cs">
+    <entry file="file://$PROJECT_DIR$/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+        <state relative-caret-position="368">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbSettings.cs" />
+    <entry file="file://$PROJECT_DIR$/Models/PostContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appsettings.Development.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="100" selection-start-line="2" selection-start-column="100" selection-end-line="2" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Migrations/20181207234635_initial.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-128" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/src/app/post.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/node_modules/@angular/router/router.metadata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11295" selection-start-column="11295" selection-end-column="11295" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Post.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp-app/tmp/src/app/fetch/fetch.component.ts" />
+    <entry file="file://$PROJECT_DIR$/tmp-app/tmp/src/app/app.module.ts" />
+    <entry file="file://$PROJECT_DIR$/tmp-app/tmp/src/app/fetch/fetch.component.html" />
+    <entry file="file://$PROJECT_DIR$/tmp-app/tmp/src/app/app-routing.module.ts" />
+    <entry file="file://$PROJECT_DIR$/tmp-app/tmp/src/app/app.component.html" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/src/app/post.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="6" selection-start-line="6" selection-end-line="9" selection-end-column="2" />
           <folding>
-            <marker date="1543930964025" expanded="false" signature="6:284" ph="..." />
-            <marker date="1543930964025" expanded="true" signature="302:2614" ph="{...}" />
-            <marker date="1543930964025" expanded="true" signature="329:2612" ph="{...}" />
-            <marker date="1543930964025" expanded="true" signature="388:451" ph="{...}" />
-            <marker date="1543930964025" expanded="true" signature="674:1290" ph="{...}" />
-            <marker date="1543930964025" expanded="true" signature="814:1077" ph="{...}" />
-            <marker date="1543930964025" expanded="true" signature="1478:2606" ph="{...}" />
-            <marker date="1543930964025" expanded="true" signature="1525:1602" ph="{...}" />
-            <marker date="1543930964025" expanded="true" signature="1619:1729" ph="{...}" />
-            <marker date="1543930964025" expanded="true" signature="1923:2089" ph="{...}" />
-            <marker date="1543930964025" expanded="true" signature="2122:2594" ph="{...}" />
-            <marker date="1543930964025" expanded="true" signature="2153:2299" ph="/* To learn more about options for serving an Angular SPA from ASP.NET Core, ... */" />
-            <marker date="1543930964025" expanded="true" signature="2396:2580" ph="{...}" />
+            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ClientApp/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ClientApp/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="508">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/src/app/home/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/src/app/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="262" selection-start-line="13" selection-start-column="262" selection-end-line="13" selection-end-column="262" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Controllers/SampleDataController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-312">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        <state relative-caret-position="124">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="27" />
           <folding>
-            <marker date="1543931009493" expanded="true" signature="6:161" ph="..." />
-            <marker date="1543931009493" expanded="true" signature="191:1309" ph="{...}" />
-            <marker date="1543931009493" expanded="true" signature="324:1307" ph="{...}" />
-            <marker date="1543931009493" expanded="true" signature="389:511" ph="{...}" />
-            <marker date="1543931009493" expanded="true" signature="606:959" ph="{...}" />
-            <marker date="1543931009493" expanded="true" signature="743:947" ph="{...}" />
-            <marker date="1543931009493" expanded="true" signature="997:1301" ph="{...}" />
-            <marker date="1543931009493" expanded="true" signature="1196:1291" ph="{...}" />
+            <marker date="1544436987941" expanded="false" signature="6:161" ph="..." />
+            <marker date="1544436987941" expanded="true" signature="191:1281" ph="{...}" />
+            <marker date="1544436987941" expanded="true" signature="296:1279" ph="{...}" />
+            <marker date="1544436987941" expanded="true" signature="361:483" ph="{...}" />
+            <marker date="1544436987941" expanded="true" signature="578:931" ph="{...}" />
+            <marker date="1544436987941" expanded="true" signature="715:919" ph="{...}" />
+            <marker date="1544436987941" expanded="true" signature="969:1273" ph="{...}" />
+            <marker date="1544436987941" expanded="true" signature="1168:1263" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/src/environments/environment.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/PostController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-35">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <marker date="1544818706297" expanded="false" signature="6:205" ph="..." />
+            <marker date="1544818706297" expanded="true" signature="235:3065" ph="{...}" />
+            <marker date="1544818706297" expanded="true" signature="334:3063" ph="{...}" />
+            <marker date="1544818706297" expanded="true" signature="439:491" ph="{...}" />
+            <marker date="1544818706297" expanded="true" signature="587:650" ph="{...}" />
+            <marker date="1544818706297" expanded="true" signature="781:1120" ph="{...}" />
+            <marker date="1544818706297" expanded="true" signature="828:903" ph="{...}" />
+            <marker date="1544818706297" expanded="true" signature="1017:1080" ph="{...}" />
+            <marker date="1544818706297" expanded="true" signature="1274:1957" ph="{...}" />
+            <marker date="1544818706297" expanded="true" signature="1321:1396" ph="{...}" />
+            <marker date="1544818706297" expanded="true" signature="1428:1493" ph="{...}" />
+            <marker date="1544818706297" expanded="true" signature="1574:1653" ph="{...}" />
+            <marker date="1544818706297" expanded="true" signature="1691:1915" ph="{...}" />
+            <marker date="1544818706297" expanded="true" signature="1742:1817" ph="{...}" />
+            <marker date="1544818706297" expanded="true" signature="1838:1901" ph="{...}" />
+            <marker date="1544818706297" expanded="true" signature="2083:2374" ph="{...}" />
+            <marker date="1544818706297" expanded="true" signature="2130:2205" ph="{...}" />
+            <marker date="1544818706297" expanded="true" signature="2515:2941" ph="{...}" />
+            <marker date="1544818706297" expanded="true" signature="2562:2637" ph="{...}" />
+            <marker date="1544818706297" expanded="true" signature="2750:2813" ph="{...}" />
+            <marker date="1544818706297" expanded="true" signature="2982:3057" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/src/app/fetch-data/fetch-data.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ClientApp/src/app/fetch-data/fetch-data.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="163">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
           <folding>
-            <element signature="e#0#50#0" expanded="true" />
+            <element signature="e#0#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/src/main.ts">
+    <entry file="file://$PROJECT_DIR$/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        <state relative-caret-position="357">
+          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="44" />
           <folding>
-            <element signature="e#0#47#0" expanded="true" />
+            <marker date="1544819952566" expanded="false" signature="6:342" ph="..." />
+            <marker date="1544819952566" expanded="true" signature="360:2910" ph="{...}" />
+            <marker date="1544819952566" expanded="true" signature="387:2908" ph="{...}" />
+            <marker date="1544819952566" expanded="true" signature="446:509" ph="{...}" />
+            <marker date="1544819952566" expanded="true" signature="732:1554" ph="{...}" />
+            <marker date="1544819952566" expanded="true" signature="768:1056" ph="..." />
+            <marker date="1544819952566" expanded="true" signature="795:1054" ph="{...}" />
+            <marker date="1544819952566" expanded="true" signature="1742:2902" ph="{...}" />
+            <marker date="1544819952566" expanded="true" signature="1789:1866" ph="{...}" />
+            <marker date="1544819952566" expanded="true" signature="1883:1993" ph="{...}" />
+            <marker date="1544819952566" expanded="true" signature="1995:2110" ph="/* app.UseHttpsRedirection(); ... */" />
+            <marker date="1544819952566" expanded="true" signature="2193:2359" ph="{...}" />
+            <marker date="1544819952566" expanded="true" signature="2363:2892" ph="/* app.UseSpa(spa =&gt; ... */" />
           </folding>
         </state>
       </provider>

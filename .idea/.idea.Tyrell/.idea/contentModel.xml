@@ -110,6 +110,9 @@
               <e p="nav-menu.component.html" t="Include" />
               <e p="nav-menu.component.ts" t="Include" />
             </e>
+            <e p="post.service.spec.ts" t="Include" />
+            <e p="post.service.ts" t="Include" />
+            <e p="post.ts" t="Include" />
           </e>
           <e p="assets" t="Include">
             <e p=".gitkeep" t="Include" />
@@ -131,7 +134,17 @@
         <e p="tslint.json" t="Include" />
       </e>
       <e p="Controllers" t="Include">
+        <e p="PostController.cs" t="Include" />
         <e p="SampleDataController.cs" t="Include" />
+      </e>
+      <e p="Migrations" t="Include">
+        <e p="20181207234635_initial.cs" t="Include" />
+        <e p="20181207234635_initial.Designer.cs" t="Include" />
+        <e p="PostContextModelSnapshot.cs" t="Include" />
+      </e>
+      <e p="models" t="Include">
+        <e p="Post.cs" t="Include" />
+        <e p="PostContext.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">

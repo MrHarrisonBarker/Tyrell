@@ -1,23 +1,38 @@
-import { Component, Inject } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import {Component, OnInit} from '@angular/core';
+import {Post} from "../post";
+import {PostService} from "../post.service";
+import {HttpClient, HttpHeaders} from "@angular/common/http";
+import {environment} from "../../environments/environment";
+import {Observable} from "rxjs";
+
+const httpOptions = {
+  headers: new HttpHeaders({'Content-Type': 'application/json'})
+};
 
 @Component({
   selector: 'app-fetch-data',
   templateUrl: './fetch-data.component.html'
 })
-export class FetchDataComponent {
-  public forecasts: WeatherForecast[];
+export class FetchDataComponent implements OnInit{
+  public posts: any[];
 
-  constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string) {
-    http.get<WeatherForecast[]>(baseUrl + 'api/SampleData/WeatherForecasts').subscribe(result => {
-      this.forecasts = result;
-    }, error => console.error(error));
+  constructor(private http:HttpClient) {
+
   }
-}
 
-interface WeatherForecast {
-  dateFormatted: string;
-  temperatureC: number;
-  temperatureF: number;
-  summary: string;
+  ngOnInit() {
+    // this.postService.getPosts().subscribe(data => this.posts = data, error => {
+    //   console.log(error);
+    // });
+    this.http.get<any[]>(environment.apiUrl + 'post', httpOptions).subscribe(
+      data => this.posts = data,
+      error => this.errorHandler(error)
+    )
+
+  }
+
+  errorHandler(error: Response) {
+    console.log(error);
+    return Observable.throw(error);
+  }
 }
