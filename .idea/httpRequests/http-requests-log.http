@@ -2,6 +2,28 @@ GET http://localhost:5000/api/post
 Accept: */*
 Cache-Control: no-cache
 
+<> 2018-12-15T112807.200.json
+
+###
+
+GET http://localhost:5001/api/post
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:5000/api/post
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-12-15T112255.200.json
+
+###
+
+GET http://localhost:5000/api/post
+Accept: */*
+Cache-Control: no-cache
+
 <> 2018-12-14T083251.200.json
 
 ###

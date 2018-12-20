@@ -36,7 +36,7 @@ namespace Tyrell
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
             // In production, the Angular files will be served from this directory
-            services.AddSpaStaticFiles(configuration => { configuration.RootPath = "ClientApp/dist"; });
+//            services.AddSpaStaticFiles(configuration => { configuration.RootPath = "ClientApp/dist"; });
 
             services.AddDbContext<PostContext>(options =>
                 options.UseMySql(Configuration.GetConnectionString("DefaultConnection"))

@@ -1,25 +1,22 @@
 import { Injectable } from '@angular/core';
 import {HttpClient, HttpHeaders} from "@angular/common/http";
-import {environment} from "../environments/environment";
 import {Observable} from "rxjs";
 import {Post} from "./post";
+import {environment} from "../environments/environment";
 
 const httpOptions = {
   headers: new HttpHeaders({'Content-Type': 'application/json'}),
   withCredentials: true
 };
 
-@Injectable()
+@Injectable({
+  providedIn: 'root'
+})
 export class PostService {
 
-  private url: string = environment.apiUrl;
+  constructor(private http: HttpClient) { }
 
-  constructor(private http: HttpClient) {
-
+  getAllPosts(): Observable<Post[]> {
+    return this.http.get<Post[]>(environment.apiUrl + 'post' , httpOptions)
   }
-
-  getPosts(): Observable<Post[]> {
-    return this.http.get<Post[]>(this.url + 'post', httpOptions);
-  }
-
 }

@@ -8,6 +8,7 @@ using Tyrell.Models;
 
 namespace Tyrell.Controllers
 {
+    [EnableCors("CorsPol")]
     [Route("api/[controller]")]
     [ApiController]
     public class PostController : Controller

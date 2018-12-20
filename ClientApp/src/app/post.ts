@@ -1,6 +1,6 @@
-export interface Post {
-  Id: number;
-  Title: string;
-  Body: string;
+export class Post {
+  id: number;
+  title: string;
+  body: string;
   isVisible: boolean;
 }
