@@ -4,7 +4,7 @@ namespace Tyrell.Models
 {
     public class Post
     {    
-        public string id { get; set; }
+        public long id { get; set; }
         public string Text { get; set;  }
         public bool isVisible { get; set; }
         public bool isReply { get; set; }

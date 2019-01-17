@@ -36,7 +36,7 @@ namespace Tyrell.Controllers
                 return BadRequest(ModelState);
             }
 
-            var post = await _context.Post.SingleOrDefaultAsync(d => d.Id == id);
+            var post = await _context.Post.SingleOrDefaultAsync(d => d.id == id);
 
             if (post == null)
             {
@@ -55,7 +55,7 @@ namespace Tyrell.Controllers
                 return BadRequest(ModelState);
             }
 
-            if (id != post.Id)
+            if (id != post.id)
             {
                 return BadRequest();
             }
@@ -92,8 +92,8 @@ namespace Tyrell.Controllers
             _context.Post.Add(post);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetPost", new {id = post.Id}, post);
-        }
+            return CreatedAtAction("GetPost", new {id = post.id}, post);
+        }            
         
         // DELETE: api/posts/1
         [HttpDelete("{id}")]
@@ -104,7 +104,7 @@ namespace Tyrell.Controllers
                 return BadRequest(ModelState);
             }
 
-            var post = await _context.Post.SingleOrDefaultAsync(d => d.Id == id);
+            var post = await _context.Post.SingleOrDefaultAsync(d => d.id == id);
             if (post == null)
             {
                 return NotFound();
@@ -118,7 +118,7 @@ namespace Tyrell.Controllers
 
         private bool PostExists(int id)
         {
-            return _context.Post.Any(d => d.Id == id);
+            return _context.Post.Any(d => d.id == id);
         }
     }
 }
