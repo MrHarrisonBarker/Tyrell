@@ -1,14 +1,3 @@
-C:\Users\Harrison\Desktop\Tyrell\bin\Debug\netcoreapp2.1\Tyrell.deps.json
-C:\Users\Harrison\Desktop\Tyrell\bin\Debug\netcoreapp2.1\Tyrell.runtimeconfig.json
-C:\Users\Harrison\Desktop\Tyrell\bin\Debug\netcoreapp2.1\Tyrell.runtimeconfig.dev.json
-C:\Users\Harrison\Desktop\Tyrell\bin\Debug\netcoreapp2.1\Tyrell.dll
-C:\Users\Harrison\Desktop\Tyrell\bin\Debug\netcoreapp2.1\Tyrell.pdb
-C:\Users\Harrison\Desktop\Tyrell\obj\Debug\netcoreapp2.1\Tyrell.csprojAssemblyReference.cache
 C:\Users\Harrison\Desktop\Tyrell\obj\Debug\netcoreapp2.1\Tyrell.csproj.CoreCompileInputs.cache
-C:\Users\Harrison\Desktop\Tyrell\obj\Debug\netcoreapp2.1\Tyrell.RazorAssemblyInfo.cache
-C:\Users\Harrison\Desktop\Tyrell\obj\Debug\netcoreapp2.1\Tyrell.RazorAssemblyInfo.cs
 C:\Users\Harrison\Desktop\Tyrell\obj\Debug\netcoreapp2.1\Tyrell.AssemblyInfoInputs.cache
 C:\Users\Harrison\Desktop\Tyrell\obj\Debug\netcoreapp2.1\Tyrell.AssemblyInfo.cs
-C:\Users\Harrison\Desktop\Tyrell\obj\Debug\netcoreapp2.1\Tyrell.RazorTargetAssemblyInfo.cache
-C:\Users\Harrison\Desktop\Tyrell\obj\Debug\netcoreapp2.1\Tyrell.dll
-C:\Users\Harrison\Desktop\Tyrell\obj\Debug\netcoreapp2.1\Tyrell.pdb
