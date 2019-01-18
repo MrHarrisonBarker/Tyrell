@@ -3,12 +3,14 @@
   <component name="ContentModelStore">
     <e p="C:\Users\Harrison\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_Tyrell.2094725359.00" t="ExcludeRecursive" />
     <e p="C:\Users\Harrison\Desktop\Tyrell" t="IncludeRecursive">
+      <e p=".dockerignore" t="Include" />
       <e p="appsettings.Development.json" t="Include" />
       <e p="appsettings.json" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="Controllers" t="Include">
         <e p="ValuesController.cs" t="Include" />
       </e>
+      <e p="DockerFile" t="Include" />
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
           <e p="netcoreapp2.1" t="Include">
