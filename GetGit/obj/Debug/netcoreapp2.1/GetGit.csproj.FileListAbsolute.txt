@@ -1,0 +1,11 @@
+/Users/harrisonbarker/Desktop/Tyrell/GetGit/bin/Debug/netcoreapp2.1/GetGit.deps.json
+/Users/harrisonbarker/Desktop/Tyrell/GetGit/bin/Debug/netcoreapp2.1/GetGit.runtimeconfig.json
+/Users/harrisonbarker/Desktop/Tyrell/GetGit/bin/Debug/netcoreapp2.1/GetGit.runtimeconfig.dev.json
+/Users/harrisonbarker/Desktop/Tyrell/GetGit/bin/Debug/netcoreapp2.1/GetGit.dll
+/Users/harrisonbarker/Desktop/Tyrell/GetGit/bin/Debug/netcoreapp2.1/GetGit.pdb
+/Users/harrisonbarker/Desktop/Tyrell/GetGit/obj/Debug/netcoreapp2.1/GetGit.csprojAssemblyReference.cache
+/Users/harrisonbarker/Desktop/Tyrell/GetGit/obj/Debug/netcoreapp2.1/GetGit.csproj.CoreCompileInputs.cache
+/Users/harrisonbarker/Desktop/Tyrell/GetGit/obj/Debug/netcoreapp2.1/GetGit.AssemblyInfoInputs.cache
+/Users/harrisonbarker/Desktop/Tyrell/GetGit/obj/Debug/netcoreapp2.1/GetGit.AssemblyInfo.cs
+/Users/harrisonbarker/Desktop/Tyrell/GetGit/obj/Debug/netcoreapp2.1/GetGit.dll
+/Users/harrisonbarker/Desktop/Tyrell/GetGit/obj/Debug/netcoreapp2.1/GetGit.pdb
