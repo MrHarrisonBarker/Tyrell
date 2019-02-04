@@ -1,5 +1,9 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div class="container-fluid">
-    <app-nav></app-nav>
-  <router-outlet></router-outlet>
-</div>
+<main id="app-root" [class]="theme === 'light' ? 'theme-light' : 'theme-dark'" style="height: 100%;">
+  <div class="AppContainer">
+    <div class="container">
+      <!--<app-nav></app-nav>-->
+      <button class="btn" (click)="ToggleTheme()">*</button>
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</main>

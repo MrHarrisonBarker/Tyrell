@@ -1,0 +1,30 @@
+<!--<div class="row">-->
+  <!--<div class="col">-->
+    <!--<button class="btn btn-info btn-sm" (click)="showFullScreen(true)">-->
+      <!--Preview-->
+    <!--</button>-->
+  <!--</div>-->
+<!--</div>-->
+
+<form [formGroup]="templateForm" novalidate>
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <span class="input-group-text">Title</span>
+    </div>
+    <input type="text" formControlName="title" class="form-control">
+  </div>
+  <div class="input-group">
+    <input type="checkbox" formControlName="visible" class="form-control">
+  </div>
+  <div class="editor">
+    <!--<label>Editor</label>-->
+    <angular-markdown-editor textareaId="editor1" [options]="editorOptions" rows="12" formControlName="body">
+    </angular-markdown-editor>
+  </div>
+</form>
+
+<hr/>
+<h3 class="text-success bold">Preview</h3>
+<div class="result-preview outline">
+  <markdown [data]="markdownText"></markdown>
+</div>

@@ -1,0 +1,21 @@
+$themes: (
+  light: (
+    backgroundColour: rgb(255,255,255),
+    textColour: rgb(30,30,30),
+    buttonTextColour: #408bbd,
+    buttonTextTransform: none,
+    buttonTextHoverColour: #61b0e7,
+    buttonColour: #fff,
+    buttonBorder: 2px solid #fff,
+  ),
+  dark: (
+    backgroundColour: rgb(20,29,38),
+    textColour: rgb(255,255,255),
+    postLinkColour: rgb(197,31,93),
+    buttonTextColour: #aaa,
+    buttonTextTransform: uppercase,
+    buttonTextHoverColour: #ddd,
+    buttonColour: #333,
+    buttonBorder: 1px solid #aaa,
+  ),
+);

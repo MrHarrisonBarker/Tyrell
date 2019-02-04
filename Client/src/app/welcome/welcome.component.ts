@@ -1,4 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {PostService} from "../Services/post.service";
+import {Post} from "../Models/post";
+import {User} from "../Models/user";
+import {UserService} from "../Services/user.service";
+import {first} from "rxjs/operators";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-welcome',
@@ -7,9 +13,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WelcomeComponent implements OnInit {
 
-  constructor() { }
+  users: User[] = [];
+
+  constructor(private userService: UserService,
+              private router: Router) {
+  }
 
   ngOnInit() {
+    // this.userService.getAll().pipe(first()).subscribe(users => {
+    //   this.users = users;
+    // });
+  }
+
+  Blog() {
+    this.router.navigate(['blog']);
   }
 
 }

@@ -1,0 +1,25 @@
+<div *ngIf="post?.isVisible">
+  <div class="row">
+    <div class="col">
+      <div class="display-3">
+        {{post.title}}
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <markdown>
+        {{post.body}}
+      </markdown>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <p class="text-muted">{{post.author.firstName}} {{post.author.lastName}} | {{post.createdAt | date}}</p>
+    </div>
+  </div>
+</div>
+
+<button class="btn btn-info btn-sm" (click)="back()">Back</button>

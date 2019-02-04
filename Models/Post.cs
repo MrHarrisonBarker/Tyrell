@@ -8,14 +8,18 @@ namespace Tyrell.Models
     public class Post
     {
         [Key]
+        [ScaffoldColumn(false)]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public long PostID {get;set;}
+        public long PostId {get;set;}
         public string Title {get;set;}
-        public string AuthorID {get;set;}
         public string Body {get;set;}
-        public string CreatedAt {get;set;}
-
-        [NotMapped]
-        public string[] Tags {get;set;}
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public DateTime CreatedAt {get;set;}
+        public bool IsVisible { get; set; }
+        
+        public long AuthorId { get; set; }
+        public Author Author { get; set; }
+        
+//        public ICollection<string> Tags { get; set; }
     }
 }
