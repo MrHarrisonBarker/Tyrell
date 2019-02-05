@@ -28,7 +28,7 @@ export class WelcomeComponent implements OnInit {
     console.log(this.theme);
   }
 
-  Blog() {
+  routeBlog() {
     this.router.navigate(['blog']);
   }
 

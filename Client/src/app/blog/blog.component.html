@@ -6,7 +6,7 @@
   </div>
 </div>
 
-<p><a [routerLink]="['/login']">Logout</a></p>
-<p><a [routerLink]="['/']">Home</a></p>
+<button type="button" [routerLink]="['/login']" class="btn btn-light">Logout</button>
+<button type="button" [routerLink]="['/']" class="btn btn-light">Home</button>
 
 <app-post *ngFor="let post of posts" [post] = post></app-post>

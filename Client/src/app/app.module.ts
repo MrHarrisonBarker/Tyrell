@@ -61,7 +61,7 @@ import {ReuseStrategy} from "./Helpers/ReuseStrategy";
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },
     { provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true },
-    { provide: RouteReuseStrategy, useClass: ReuseStrategy}
+    // { provide: RouteReuseStrategy, useClass: ReuseStrategy}
   ],
   bootstrap: [AppComponent]
 })

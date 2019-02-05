@@ -4,7 +4,6 @@ import {Location} from "@angular/common";
 import {ActivatedRoute, Router} from "@angular/router";
 import {switchMap} from "rxjs/operators";
 import {PostService} from "../Services/post.service";
-import {Local} from "protractor/built/driverProviders";
 
 @Component({
   selector: 'app-post-details',
