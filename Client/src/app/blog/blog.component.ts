@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {PostService} from "../Services/post.service";
 import {Post} from "../Models/post";
 import {Router} from "@angular/router";
+import {Local} from "protractor/built/driverProviders";
 
 @Component({
   selector: 'app-blog',
@@ -18,6 +19,7 @@ export class BlogComponent implements OnInit {
     this.postService.GetAll().subscribe(posts => {
         console.log(posts);
         this.posts = posts;
+        localStorage.setItem('posts', JSON.stringify(this.posts));
       },
       error => {
         console.log(error);

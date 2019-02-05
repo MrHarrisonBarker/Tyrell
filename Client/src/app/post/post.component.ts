@@ -18,7 +18,7 @@ export class PostComponent implements OnInit {
   }
 
   route() {
-    this.router.navigate([`blog/post/${this.post.postId}`, {post: this.post}])
+    this.router.navigate([`blog/post/${this.post.postId}`])
   }
 
 }

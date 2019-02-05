@@ -4,6 +4,7 @@ import {Location} from "@angular/common";
 import {ActivatedRoute, Router} from "@angular/router";
 import {switchMap} from "rxjs/operators";
 import {PostService} from "../Services/post.service";
+import {Local} from "protractor/built/driverProviders";
 
 @Component({
   selector: 'app-post-details',
@@ -23,11 +24,16 @@ export class PostDetailsComponent implements OnInit {
 
   ngOnInit() {
     let id = this.route.snapshot.params['id'];
-    this.postService.Get(id).subscribe(post => {
-      console.log(typeof post);
-      console.log(post);
-      this.post = post;
-    });
+
+    // this.postService.Get(id).subscribe(post => {
+    //   console.log(typeof post);
+    //   console.log(post);
+    //   this.post = post;
+    // });
+
+    let posts = JSON.parse(localStorage.getItem('posts'));
+    this.post = posts.find(post => post.postId == id);
+    console.log(this.post);
   }
 
   back() {

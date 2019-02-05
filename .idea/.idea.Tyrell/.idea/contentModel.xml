@@ -56,28 +56,10 @@
           <e p="@types" t="IncludeRecursive">
             <e p="jasmine" t="IncludeRecursive" />
             <e p="jasminewd2" t="IncludeRecursive" />
-            <e p="marked" t="Include">
-              <e p="index.d.ts" t="Include" />
-              <e p="LICENSE" t="Include" />
-              <e p="package.json" t="Include" />
-              <e p="README.md" t="Include" />
-            </e>
             <e p="node" t="IncludeRecursive" />
           </e>
           <e p="angular-markdown-editor" t="IncludeRecursive" />
-          <e p="angular2-jwt" t="IncludeRecursive">
-            <e p=".npmignore" t="Include" />
-            <e p="angular2-jwt-test-helpers.d.ts" t="Include" />
-            <e p="angular2-jwt-test-helpers.js" t="Include" />
-            <e p="angular2-jwt-test-helpers.js.map" t="Include" />
-            <e p="angular2-jwt.d.ts" t="Include" />
-            <e p="angular2-jwt.js" t="Include" />
-            <e p="angular2-jwt.js.map" t="Include" />
-            <e p="custom.d.ts" t="Include" />
-            <e p="LICENSE" t="Include" />
-            <e p="package.json" t="Include" />
-            <e p="README.md" t="Include" />
-          </e>
+          <e p="angular2-jwt" t="IncludeRecursive" />
           <e p="bootstrap" t="IncludeRecursive" />
           <e p="codelyzer" t="IncludeRecursive" />
           <e p="core-js" t="IncludeRecursive" />
@@ -89,84 +71,7 @@
           <e p="karma-coverage-istanbul-reporter" t="IncludeRecursive" />
           <e p="karma-jasmine" t="IncludeRecursive" />
           <e p="karma-jasmine-html-reporter" t="IncludeRecursive" />
-          <e p="marked" t="Include">
-            <e p="bin" t="Include">
-              <e p="marked" t="Include" />
-            </e>
-            <e p="lib" t="Include">
-              <e p="marked.js" t="Include" />
-            </e>
-            <e p="LICENSE.md" t="Include" />
-            <e p="man" t="Include">
-              <e p="marked.1" t="Include" />
-              <e p="marked.1.txt" t="Include" />
-            </e>
-            <e p="marked.min.js" t="Include" />
-            <e p="package.json" t="Include" />
-            <e p="README.md" t="Include" />
-          </e>
-          <e p="ngx-markdown" t="IncludeRecursive">
-            <e p="bundles" t="Include">
-              <e p="ngx-markdown.umd.js" t="Include" />
-              <e p="ngx-markdown.umd.js.map" t="Include" />
-              <e p="ngx-markdown.umd.min.js" t="Include" />
-              <e p="ngx-markdown.umd.min.js.map" t="Include" />
-            </e>
-            <e p="esm2015" t="Include">
-              <e p="ngx-markdown.js" t="Include" />
-              <e p="public_api.js" t="Include" />
-              <e p="src" t="Include">
-                <e p="index.js" t="Include" />
-                <e p="language.pipe.js" t="Include" />
-                <e p="markdown.component.js" t="Include" />
-                <e p="markdown.module.js" t="Include" />
-                <e p="markdown.pipe.js" t="Include" />
-                <e p="markdown.service.js" t="Include" />
-                <e p="marked-options.js" t="Include" />
-                <e p="marked-renderer.js" t="Include" />
-                <e p="prism-plugin.js" t="Include" />
-              </e>
-            </e>
-            <e p="esm5" t="Include">
-              <e p="ngx-markdown.js" t="Include" />
-              <e p="public_api.js" t="Include" />
-              <e p="src" t="Include">
-                <e p="index.js" t="Include" />
-                <e p="language.pipe.js" t="Include" />
-                <e p="markdown.component.js" t="Include" />
-                <e p="markdown.module.js" t="Include" />
-                <e p="markdown.pipe.js" t="Include" />
-                <e p="markdown.service.js" t="Include" />
-                <e p="marked-options.js" t="Include" />
-                <e p="marked-renderer.js" t="Include" />
-                <e p="prism-plugin.js" t="Include" />
-              </e>
-            </e>
-            <e p="fesm2015" t="Include">
-              <e p="ngx-markdown.js" t="Include" />
-              <e p="ngx-markdown.js.map" t="Include" />
-            </e>
-            <e p="fesm5" t="Include">
-              <e p="ngx-markdown.js" t="Include" />
-              <e p="ngx-markdown.js.map" t="Include" />
-            </e>
-            <e p="ngx-markdown.d.ts" t="Include" />
-            <e p="ngx-markdown.metadata.json" t="Include" />
-            <e p="package.json" t="Include" />
-            <e p="public_api.d.ts" t="Include" />
-            <e p="README.md" t="Include" />
-            <e p="src" t="Include">
-              <e p="index.d.ts" t="Include" />
-              <e p="language.pipe.d.ts" t="Include" />
-              <e p="markdown.component.d.ts" t="Include" />
-              <e p="markdown.module.d.ts" t="Include" />
-              <e p="markdown.pipe.d.ts" t="Include" />
-              <e p="markdown.service.d.ts" t="Include" />
-              <e p="marked-options.d.ts" t="Include" />
-              <e p="marked-renderer.d.ts" t="Include" />
-              <e p="prism-plugin.d.ts" t="Include" />
-            </e>
-          </e>
+          <e p="ngx-markdown" t="IncludeRecursive" />
           <e p="popper.js" t="IncludeRecursive" />
           <e p="prismjs" t="IncludeRecursive" />
           <e p="protractor" t="IncludeRecursive" />
@@ -243,6 +148,7 @@
               <e p="error.interceptor.ts" t="Include" />
               <e p="index.ts" t="Include" />
               <e p="jwt.interceptor.ts" t="Include" />
+              <e p="ReuseStrategy.ts" t="Include" />
             </e>
             <e p="login" t="Include">
               <e p="login.component.html" t="Include" />
@@ -293,8 +199,11 @@
           </e>
           <e p="assets" t="Include">
             <e p=".gitkeep" t="Include" />
+            <e p="aboutIcon.svg" t="Include" />
+            <e p="blogIcon.svg" t="Include" />
             <e p="logoNumberOne.png" t="Include" />
             <e p="logoNumberOne.svg" t="Include" />
+            <e p="workIcon.svg" t="Include" />
           </e>
           <e p="browserslist" t="Include" />
           <e p="environments" t="Include">

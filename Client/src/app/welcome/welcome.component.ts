@@ -14,6 +14,7 @@ import {Router} from "@angular/router";
 export class WelcomeComponent implements OnInit {
 
   users: User[] = [];
+  theme: string;
 
   constructor(private userService: UserService,
               private router: Router) {
@@ -23,6 +24,8 @@ export class WelcomeComponent implements OnInit {
     // this.userService.getAll().pipe(first()).subscribe(users => {
     //   this.users = users;
     // });
+    this.theme = localStorage.getItem('theme');
+    console.log(this.theme);
   }
 
   Blog() {

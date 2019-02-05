@@ -15,6 +15,8 @@ import { PostDetailsComponent } from './post-details/post-details.component';
 import { BlogComponent } from './blog/blog.component';
 import { LoginComponent } from './login/login.component';
 import {ErrorInterceptor, JwtInterceptor} from "./Helpers";
+import {RouteReuseStrategy} from "@angular/router";
+import {ReuseStrategy} from "./Helpers/ReuseStrategy";
 
 @NgModule({
   declarations: [
@@ -58,7 +60,8 @@ import {ErrorInterceptor, JwtInterceptor} from "./Helpers";
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },
-    { provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true }
+    { provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true },
+    { provide: RouteReuseStrategy, useClass: ReuseStrategy}
   ],
   bootstrap: [AppComponent]
 })
