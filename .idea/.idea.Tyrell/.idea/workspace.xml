@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="273dfb7d-e5f9-4064-b278-cd0764fb31bd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tyrell/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tyrell/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/app/blog/blog.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/app/blog/blog.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/app/post-details/post-details.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/app/post-details/post-details.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/app/post-details/post-details.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/app/post-details/post-details.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/app/post/post.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/app/post/post.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/app/welcome/welcome.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/app/welcome/welcome.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/app/welcome/welcome.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/app/welcome/welcome.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/Tyrell.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/Tyrell.csprojAssemblyReference.cache" afterDir="false" />
-    </list>
+    <list default="true" id="273dfb7d-e5f9-4064-b278-cd0764fb31bd" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +13,7 @@
     <session id="1469511083">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="2" />
@@ -60,7 +50,7 @@
           <entry key="Dockerfile" value="10" />
           <entry key="cs" value="3043" />
           <entry key="dockerignore" value="13" />
-          <entry key="html" value="2747" />
+          <entry key="html" value="2761" />
           <entry key="json" value="315" />
           <entry key="scss" value="727" />
           <entry key="ts" value="4678" />
@@ -71,7 +61,7 @@
         <counts>
           <entry key="C#" value="3043" />
           <entry key="Dockerfile" value="10" />
-          <entry key="HTML" value="2746" />
+          <entry key="HTML" value="2760" />
           <entry key="JSON" value="315" />
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="13" />
@@ -102,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/Client/src/app/post/post.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="69">
-              <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -173,8 +163,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Client/src/app/post-details/post-details.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="207">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -286,8 +276,8 @@
         <option value="$PROJECT_DIR$/Client/src/app/welcome/welcome.component.html" />
         <option value="$PROJECT_DIR$/Client/src/app/welcome/welcome.component.ts" />
         <option value="$PROJECT_DIR$/Client/src/app/blog/blog.component.html" />
-        <option value="$PROJECT_DIR$/Client/src/app/post/post.component.html" />
         <option value="$PROJECT_DIR$/Client/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/Client/src/app/post/post.component.html" />
         <option value="$PROJECT_DIR$/Client/src/app/post-details/post-details.component.html" />
       </list>
     </option>
@@ -308,8 +298,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="747" />
+    <option name="width" value="1440" />
+    <option name="height" value="843" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -471,12 +461,12 @@
       <workItem from="1548015119991" duration="6537000" />
       <workItem from="1548869856007" duration="7520000" />
       <workItem from="1548885414779" duration="57893000" />
-      <workItem from="1549303107444" duration="6823000" />
+      <workItem from="1549303107444" duration="7323000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81452000" />
+    <option name="totallyTimeSpent" value="81952000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -488,10 +478,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="747" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="843" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34168014" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3025751" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -837,13 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/app/post/post.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Client/src/app/post/post.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
@@ -871,10 +853,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/app/post/post.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Client/src/app/post-details/post-details.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="207">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
