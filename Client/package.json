@@ -21,6 +21,7 @@
     "@angular/platform-browser": "~7.1.0",
     "@angular/platform-browser-dynamic": "~7.1.0",
     "@angular/router": "~7.1.0",
+    "@ng-bootstrap/ng-bootstrap": "^4.0.3",
     "angular-markdown-editor": "^2.0.2",
     "bootstrap": "^4.2.1",
     "bootstrap-social": "^5.1.1",

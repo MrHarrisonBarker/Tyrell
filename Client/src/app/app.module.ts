@@ -1,22 +1,23 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 import {AppRoutingModule} from './app-routing.module';
-import {FormsModule, ReactiveFormsModule} from "@angular/forms";
-import {AngularMarkdownEditorModule} from "angular-markdown-editor";
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {AngularMarkdownEditorModule} from 'angular-markdown-editor';
 import {MarkdownModule, MarkedOptions, MarkedRenderer} from 'ngx-markdown';
 
 import {AppComponent} from './app.component';
 import {WelcomeComponent} from './welcome/welcome.component';
 import {NavComponent} from './nav/nav.component';
 import {EditorComponent} from './editor/editor.component';
-import {HTTP_INTERCEPTORS, HttpClientModule} from "@angular/common/http";
+import {HTTP_INTERCEPTORS, HttpClientModule} from '@angular/common/http';
 import { PostComponent } from './post/post.component';
 import { PostDetailsComponent } from './post-details/post-details.component';
 import { BlogComponent } from './blog/blog.component';
 import { LoginComponent } from './login/login.component';
-import {ErrorInterceptor, JwtInterceptor} from "./Helpers";
-import {RouteReuseStrategy} from "@angular/router";
-import {ReuseStrategy} from "./Helpers/ReuseStrategy";
+import {ErrorInterceptor, JwtInterceptor} from './Helpers';
+import {RouteReuseStrategy} from '@angular/router';
+import {ReuseStrategy} from './Helpers/ReuseStrategy';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import {ReuseStrategy} from "./Helpers/ReuseStrategy";
   imports: [
     AppRoutingModule,
     BrowserModule,
+    NgbModule,
     HttpClientModule,
     FormsModule,
     MarkdownModule.forRoot({
