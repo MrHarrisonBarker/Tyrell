@@ -6,7 +6,8 @@
   </div>
 </div>
 
-<button type="button" [routerLink]="['/login']" class="btn btn-light">Logout</button>
-<button type="button" [routerLink]="['/']" class="btn btn-light">Home</button>
+<!--<button type="button" [routerLink]="['/login']" class="btn btn-light">Logout</button>-->
+<!--<button type="button" [routerLink]="['/']" class="btn btn-light">Home</button>-->
+<fa-icon [icon]="faDoubleArrowLeft" size="2x" [routerLink]="['/']"></fa-icon>
 
-<app-post *ngFor="let post of posts" [post] = post></app-post>
+<app-post *ngFor="let post of posts" [post]=post></app-post>

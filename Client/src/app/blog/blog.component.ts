@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import {PostService} from "../Services/post.service";
-import {Post} from "../Models/post";
-import {Router} from "@angular/router";
-import {Local} from "protractor/built/driverProviders";
+import {PostService} from '../Services/post.service';
+import {Post} from '../Models/post';
+import {Router} from '@angular/router';
+import {Local} from 'protractor/built/driverProviders';
+import {faAngleDoubleLeft} from '@fortawesome/free-solid-svg-icons/faAngleDoubleLeft';
 
 @Component({
   selector: 'app-blog',
@@ -10,6 +11,8 @@ import {Local} from "protractor/built/driverProviders";
   styleUrls: ['./blog.component.scss']
 })
 export class BlogComponent implements OnInit {
+
+  faDoubleArrowLeft = faAngleDoubleLeft
 
   posts: Post[] = [];
 

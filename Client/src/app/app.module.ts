@@ -18,6 +18,7 @@ import {ErrorInterceptor, JwtInterceptor} from './Helpers';
 import {RouteReuseStrategy} from '@angular/router';
 import {ReuseStrategy} from './Helpers/ReuseStrategy';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -58,7 +59,8 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
       // add any Global Options/Config you might want
       // to avoid passing the same options over and over in each components of your App
       iconlibrary: 'glyph'
-    })
+    }),
+    FontAwesomeModule
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },

@@ -11,20 +11,23 @@
     <!--</p>-->
 
     <div class="text-center">
-      <button class="btn btn-sm btn-outline-info" (click)="routeBlog()" placement="top" ngbTooltip="Goes to the blog">
-        Blog
-      </button>
+      <!--<button class="btn btn-sm RouteButton" (click)="routeBlog()" placement="top" ngbTooltip="Goes to the blog">-->
+      <!--Blog-->
+      <!--</button>-->
+      <div (click)="routeBlog()">
+        <fa-icon [icon]="faCoffee" size="lg"></fa-icon>
+      </div>
     </div>
 
     <hr class="Break">
 
-    <div class="p-0 text-muted text-center">
+    <div class="p-0 text-center Muted">
       &copy; 2019 OneExampleCompany, Harrison Barker. All rights reserved.
     </div>
 
     <div class="text-center my-2">
-      <a class="btn btn-social-icon btn-twitter" target="_blank" href="https://twitter.com/Harrison_png">
-        <span class="fa fa-twitter"></span>
+      <a target="_blank" href="https://twitter.com/Harrison_png" style="color: white">
+        <fa-icon [icon]="faTwitter" size="lg"></fa-icon>
       </a>
     </div>
   </div>
