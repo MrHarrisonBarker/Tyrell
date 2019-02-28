@@ -7,6 +7,9 @@ import {first} from 'rxjs/operators';
 import {Router} from '@angular/router';
 import {faCoffee} from '@fortawesome/free-solid-svg-icons';
 import {faTwitter} from '@fortawesome/free-brands-svg-icons/faTwitter';
+import {faInstagram} from '@fortawesome/free-brands-svg-icons/faInstagram';
+import {faReddit} from '@fortawesome/free-brands-svg-icons/faReddit';
+import {faGithub} from '@fortawesome/free-brands-svg-icons/faGithub';
 
 @Component({
   selector: 'app-welcome',
@@ -17,6 +20,9 @@ export class WelcomeComponent implements OnInit {
 
   faCoffee = faCoffee;
   faTwitter = faTwitter;
+  faInstagram = faInstagram;
+  faReddit = faReddit;
+  faGithub = faGithub;
 
   users: User[] = [];
   theme: string;
@@ -35,6 +41,10 @@ export class WelcomeComponent implements OnInit {
 
   routeBlog() {
     this.router.navigate(['blog']);
+  }
+
+  routeArticles() {
+    this.router.navigate(['articles']);
   }
 
 }

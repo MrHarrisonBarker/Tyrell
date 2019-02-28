@@ -19,6 +19,7 @@ import {RouteReuseStrategy} from '@angular/router';
 import {ReuseStrategy} from './Helpers/ReuseStrategy';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
+import { ArticlesComponent } from './articles/articles.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
     PostComponent,
     PostDetailsComponent,
     BlogComponent,
-    LoginComponent
+    LoginComponent,
+    ArticlesComponent
   ],
   imports: [
     AppRoutingModule,

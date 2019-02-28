@@ -12,7 +12,7 @@ import {faAngleDoubleLeft} from '@fortawesome/free-solid-svg-icons/faAngleDouble
 })
 export class BlogComponent implements OnInit {
 
-  faDoubleArrowLeft = faAngleDoubleLeft
+  faDoubleArrowLeft = faAngleDoubleLeft;
 
   posts: Post[] = [];
 

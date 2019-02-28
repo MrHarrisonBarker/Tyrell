@@ -1,0 +1,10 @@
+<fa-icon [icon]="faDoubleArrowLeft" size="2x" [routerLink]="['/']"></fa-icon>
+
+<div *ngFor="let article of Articles">
+  <div class="Name d-inline">
+    {{article.Name}}
+  </div>
+  <div class="p-0 d-inline">
+    : <a href="{{article.URL}}" style="color: #FFF;" target="_blank">{{article.URL}}</a>
+  </div>
+</div>
