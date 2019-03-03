@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {ARTICLES} from '../articles';
 import {faAngleDoubleLeft} from '@fortawesome/free-solid-svg-icons/faAngleDoubleLeft';
+import { BOOKS } from '../books';
 
 @Component({
   selector: 'app-articles',
@@ -12,6 +13,7 @@ export class ArticlesComponent implements OnInit {
   faDoubleArrowLeft = faAngleDoubleLeft;
 
   Articles = ARTICLES;
+  Books = BOOKS;
 
   constructor() {
   }

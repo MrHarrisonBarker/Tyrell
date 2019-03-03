@@ -1,10 +1,22 @@
 <fa-icon [icon]="faDoubleArrowLeft" size="2x" [routerLink]="['/']"></fa-icon>
 
+
+<div class="display-2">#Articles</div>
 <div *ngFor="let article of Articles">
   <div class="Name d-inline">
     {{article.Name}}
   </div>
   <div class="p-0 d-inline">
     : <a href="{{article.URL}}" style="color: #FFF;" target="_blank">{{article.URL}}</a>
+  </div>
+</div>
+
+<div class="display-2">#Books</div>
+<div *ngFor="let book of Books">
+  <div class="d-inline">
+    <a href="{{book.URL}}" class="Name" target="_blank">{{book.Name}}</a>
+  </div>
+  <div class="p-0 d-inline">
+    : {{book.Author}}
   </div>
 </div>
