@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, Inject, OnInit} from '@angular/core';
 import {PostService} from '../Services/post.service';
 import {Post} from '../Models/post';
 import {User} from '../Models/user';
@@ -10,6 +10,7 @@ import {faTwitter} from '@fortawesome/free-brands-svg-icons/faTwitter';
 import {faInstagram} from '@fortawesome/free-brands-svg-icons/faInstagram';
 import {faReddit} from '@fortawesome/free-brands-svg-icons/faReddit';
 import {faGithub} from '@fortawesome/free-brands-svg-icons/faGithub';
+import {DOCUMENT} from '@angular/common';
 
 @Component({
   selector: 'app-welcome',
@@ -28,7 +29,8 @@ export class WelcomeComponent implements OnInit {
   theme: string;
 
   constructor(private userService: UserService,
-              private router: Router) {
+              private router: Router,
+              @Inject(DOCUMENT) private document: any) {
   }
 
   ngOnInit() {
@@ -45,6 +47,10 @@ export class WelcomeComponent implements OnInit {
 
   routeArticles() {
     this.router.navigate(['articles']);
+  }
+
+  routeRiver() {
+    this.document.location.href = 'http://harrisonbarker.co.uk/river';
   }
 
 }
