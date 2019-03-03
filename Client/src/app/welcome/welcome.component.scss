@@ -10,5 +10,25 @@
   border-top: 1px solid rgba(130,130,130,0.8);
 }
 .RouteButton {
-  color: #FFF568;
+  color: #FFF;
+  background-color: #3f155f;
+}
+.RouteButton:hover {
+  color: #FFF;
+  background-color: #452f5f;
+}
+.SocialIcon {
+  color: white;
+}
+#TwitterIcon:hover {
+  color: #1da1f2;
+}
+#InstagramIcon:hover {
+  color: #e1306c;
+}
+#RedditIcon:hover {
+  color: #ff4500;
+}
+#GithubIcon:hover {
+  color: #6cc644;
 }

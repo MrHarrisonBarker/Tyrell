@@ -14,14 +14,14 @@
       <!--<button class="btn btn-sm RouteButton" (click)="routeBlog()" placement="top" ngbTooltip="Goes to the blog">-->
       <!--Blog-->
       <!--</button>-->
-      <div (click)="routeBlog()">
+      <div (click)="routeBlog()" class="d-inline mx-2">
         <fa-icon [icon]="faCoffee" size="lg"></fa-icon>
       </div>
-      <div (click)="routeArticles()">
+      <div (click)="routeArticles()" class="d-inline mx-2">
         <button class="btn btn-sm RouteButton">Some cool articles</button>
       </div>
 
-      <div (click)="routeRiver()">
+      <div (click)="routeRiver()" class="d-inline mx-2">
         <button class="btn btn-sm RouteButton">The River</button>
       </div>
     </div>
@@ -33,16 +33,16 @@
     </div>
 
     <div class="text-center my-2">
-      <a target="_blank" href="https://twitter.com/Harrison_png" style="color: white">
-        <fa-icon [icon]="faTwitter" size="lg" class="mx-2"></fa-icon>
+      <a target="_blank" href="https://twitter.com/Harrison_png" id="TwitterIcon" class="SocialIcon">
+        <fa-icon [icon]="faTwitter" size="lg" class="mx-2" [spin]="true"></fa-icon>
       </a>
-      <a target="_blank" href="https://www.instagram.com/harrisonbarker.png" style="color: white">
+      <a target="_blank" href="https://www.instagram.com/harrisonbarker.png" id="InstagramIcon" class="SocialIcon">
         <fa-icon [icon]="faInstagram" size="lg" class="mx-2"></fa-icon>
       </a>
-      <a target="_blank" href="https://www.reddit.com/user/High_Impedance" style="color: white">
+      <a target="_blank" href="https://www.reddit.com/user/High_Impedance" id="RedditIcon" class="SocialIcon">
         <fa-icon [icon]="faReddit" size="lg" class="mx-2"></fa-icon>
       </a>
-      <a target="_blank" href="https://github.com/MrHarrisonBarker" style="color: white">
+      <a target="_blank" href="https://github.com/MrHarrisonBarker" id="GithubIcon" class="SocialIcon">
         <fa-icon [icon]="faGithub" size="lg" class="mx-2"></fa-icon>
       </a>
     </div>
