@@ -53,4 +53,8 @@ export class WelcomeComponent implements OnInit {
     this.document.location.href = 'http://harrisonbarker.co.uk/river';
   }
 
+  routePaint() {
+    this.document.location.href = 'http://harrisonbarker.co.uk/paint';
+  }
+
 }

@@ -15,7 +15,8 @@
       <!--Blog-->
       <!--</button>-->
       <div (click)="routeBlog()" class="d-inline mx-2">
-        <fa-icon [icon]="faCoffee" size="lg"></fa-icon>
+        <!--<fa-icon [icon]="faCoffee" size="lg"></fa-icon>-->
+        <button class="btn btn-sm RouteButton">Blog</button>
       </div>
       <div (click)="routeArticles()" class="d-inline mx-2">
         <button class="btn btn-sm RouteButton">Some cool articles</button>
@@ -23,6 +24,10 @@
 
       <div (click)="routeRiver()" class="d-inline mx-2">
         <button class="btn btn-sm RouteButton">The River</button>
+      </div>
+
+      <div (click)="routePaint()" class="d-inline mx-2">
+        <button class="btn btn-sm RouteButton">PaintShop - under construction</button>
       </div>
     </div>
 
@@ -37,7 +42,7 @@
         <fa-icon [icon]="faTwitter" size="lg" class="mx-2" [spin]="true"></fa-icon>
       </a>
       <a target="_blank" href="https://www.instagram.com/harrisonbarker.png" id="InstagramIcon" class="SocialIcon">
-        <fa-icon [icon]="faInstagram" size="lg" class="mx-2"></fa-icon>
+        <fa-icon [icon]="faInstagram" size="lg" class="mx-2" [spin]="true"></fa-icon>
       </a>
       <a target="_blank" href="https://www.reddit.com/user/High_Impedance" id="RedditIcon" class="SocialIcon">
         <fa-icon [icon]="faReddit" size="lg" class="mx-2"></fa-icon>

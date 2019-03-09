@@ -10,12 +10,17 @@
   border-top: 1px solid rgba(130,130,130,0.8);
 }
 .RouteButton {
-  color: #FFF;
-  background-color: #3f155f;
+  color: #7FFF00;
+  /* background-color: #3f155f; */
+  border-radius: 100px;
+  border: 1px solid #7FFF00;
+  text-transform: none;
+  padding: 5px 15px 5px 15px;
+  letter-spacing: 0.5px;
 }
 .RouteButton:hover {
-  color: #FFF;
-  background-color: #452f5f;
+  color: #372963;
+  background-color: #7FFF00;
 }
 .SocialIcon {
   color: white;
